@@ -39,6 +39,7 @@ void imprimir_produto(Registro *produto, int n){
         printf("Preço do produto: %.2f\n", produto[i].preco);
     }
 }
+
 void ordenarPorCodigo(Registro *produtos, int n){
     int temp;
     
